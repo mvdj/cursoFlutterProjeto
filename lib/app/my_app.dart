@@ -2,6 +2,7 @@ import 'package:farmacia/app/view/remedios_form.dart';
 import 'package:farmacia/app/view/remedios_list.dart';
 import 'package:flutter/material.dart';
 
+
 class MyApp extends StatelessWidget {
   static const HOME = '/';
   static const REMEDIOS_FORM = 'remedios-form';

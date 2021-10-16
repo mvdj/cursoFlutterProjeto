@@ -15,6 +15,7 @@ class RemediosList extends StatelessWidget {
   ];
 */
 
+
 Future<List<Map<String, dynamic>>> _buscar() async{
 String path = join(await getDatabasesPath(),"banco");
 Database db = await openDatabase(

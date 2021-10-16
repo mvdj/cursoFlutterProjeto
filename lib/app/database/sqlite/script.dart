@@ -14,6 +14,7 @@ CREATE TABLE remedio(
 
 
 
+
 final insert1 = '''
 INSERT INTO remedio(id, nome, apresentacao, imagem, data_lote, data_validade, preco)
 VALUES (1,'Cataflan 50mg','10 drágeas','https://www.drogariaminasbrasil.com.br/media/catalog/product/7/7/772_original.jpg','12/12/2020','12/12/2023','34,56')
