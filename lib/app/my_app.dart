@@ -6,8 +6,6 @@ class MyApp extends StatelessWidget {
   static const HOME = '/';
   static const REMEDIOS_FORM = 'remedios-form';
 
-  const MyApp({Key? key}) : super(key: key);
-
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
