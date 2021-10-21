@@ -1,12 +1,11 @@
 //@dart=2.9
-//import 'package:farmacia/app/my_app.dart';
-//import 'package:flutter/material.dart';
+import 'package:farmacia/app/my_app.dart';
+import 'package:flutter/material.dart';
 
-/*
 void main() {
   runApp(const MyApp());
 }
-*/
+
 
 /* ATIVIDADE
 (1) três exemplos de funções assíncronas e um texto explicativo do que é future, await e async 
@@ -23,7 +22,7 @@ serem executados na sequência (desperdiçando tempo e recursos computacionais) 
 seja executados todos, na programação assíncrona pode ser executados comandos posteriores, independentemente do 
 tempo a ser esperado dos comandos anteriores, ocasionando uma dinâmica mais interessante para diversos contextos.*/
 
-
+/*
 void main() async{
   print("Carregando tela, logotipo e descrições...");
   tela();
@@ -43,4 +42,4 @@ Future descricoesRemedios(){
   return Future.delayed(Duration(seconds: 5),() => print("Busca no BD das descrições realizadas."));
 }
 
-
+*/
