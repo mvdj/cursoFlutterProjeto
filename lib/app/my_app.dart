@@ -1,5 +1,5 @@
-import 'package:farmacia/app/view/remedios_form.dart';
-import 'package:farmacia/app/view/remedios_list.dart';
+import 'package:farmacia/app/view/remedio_form.dart';
+import 'package:farmacia/app/view/remedio_list.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {

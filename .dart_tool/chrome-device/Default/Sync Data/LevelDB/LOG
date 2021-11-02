@@ -1,3 +1,2 @@
-2021/09/16-22:09:18.697 36536 Reusing MANIFEST /tmp/flutter_tools.AQTPIK/flutter_tools_chrome_device.WOTLED/Default/Sync Data/LevelDB/MANIFEST-000001
-2021/09/16-22:09:18.698 36536 Recovering log #3
-2021/09/16-22:09:18.711 36536 Reusing old log /tmp/flutter_tools.AQTPIK/flutter_tools_chrome_device.WOTLED/Default/Sync Data/LevelDB/000003.log 
+2021/11/02-10:30:09.849 24a36 Creating DB /tmp/flutter_tools.QPVGKG/flutter_tools_chrome_device.TNTAKT/Default/Sync Data/LevelDB since it was missing.
+2021/11/02-10:30:09.864 24a36 Reusing MANIFEST /tmp/flutter_tools.QPVGKG/flutter_tools_chrome_device.TNTAKT/Default/Sync Data/LevelDB/MANIFEST-000001

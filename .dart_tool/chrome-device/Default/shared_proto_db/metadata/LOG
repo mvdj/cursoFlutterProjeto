@@ -1,3 +1,2 @@
-2021/09/16-22:09:38.811 36560 Reusing MANIFEST /tmp/flutter_tools.AQTPIK/flutter_tools_chrome_device.WOTLED/Default/shared_proto_db/metadata/MANIFEST-000001
-2021/09/16-22:09:38.812 36560 Recovering log #3
-2021/09/16-22:09:38.812 36560 Reusing old log /tmp/flutter_tools.AQTPIK/flutter_tools_chrome_device.WOTLED/Default/shared_proto_db/metadata/000003.log 
+2021/11/02-10:30:14.015 24a5c Creating DB /tmp/flutter_tools.QPVGKG/flutter_tools_chrome_device.TNTAKT/Default/shared_proto_db/metadata since it was missing.
+2021/11/02-10:30:14.028 24a5c Reusing MANIFEST /tmp/flutter_tools.QPVGKG/flutter_tools_chrome_device.TNTAKT/Default/shared_proto_db/metadata/MANIFEST-000001

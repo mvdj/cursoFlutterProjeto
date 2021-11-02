@@ -1,7 +1,7 @@
 
 final createTable = '''
 CREATE TABLE remedio(
-  id INT NOT NULL PRIMARY KEY,
+  id INTEGER NOT NULL PRIMARY KEY,
   nome VARCHAR(200) NOT NULL,  
   apresentacao VARCHAR(100) NOT NULL,
   imagem VARCHAR(500) NOT NULL,
@@ -18,7 +18,7 @@ VALUES (1,'Cataflan 50mg','10 drágeas','https://www.drogariaminasbrasil.com.br/
 
 final insert2 = '''
 INSERT INTO remedio (id,nome, apresentacao, imagem,  data_lote, data_validade, preco)
-VALUES (2,'Celestamine 2mg/5ml 0,25/5ml','Xarope 120ml','https://www.drogariaminasbrasil.com.br/media/catalog/product/3/6/3630_original.jpg','15/11/2019','14/03/2025','54,69')
+VALUES (2,'Celestamine 2mg/5ml','Xarope 120ml','https://www.drogariaminasbrasil.com.br/media/catalog/product/3/6/3630_original.jpg','15/11/2019','14/03/2025','54,69')
 ''';
 
 final insert3 = '''

@@ -1,3 +1,2 @@
-2021/09/16-22:09:19.382 3655b Reusing MANIFEST /tmp/flutter_tools.AQTPIK/flutter_tools_chrome_device.WOTLED/Default/Service Worker/Database/MANIFEST-000001
-2021/09/16-22:09:19.383 3655b Recovering log #3
-2021/09/16-22:09:19.383 3655b Reusing old log /tmp/flutter_tools.AQTPIK/flutter_tools_chrome_device.WOTLED/Default/Service Worker/Database/000003.log 
+2021/11/02-10:30:17.156 24a5d Creating DB /tmp/flutter_tools.QPVGKG/flutter_tools_chrome_device.TNTAKT/Default/Service Worker/Database since it was missing.
+2021/11/02-10:30:17.196 24a5d Reusing MANIFEST /tmp/flutter_tools.QPVGKG/flutter_tools_chrome_device.TNTAKT/Default/Service Worker/Database/MANIFEST-000001
