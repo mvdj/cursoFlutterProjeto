@@ -8,11 +8,9 @@ void main() {
   runApp(const MyApp());
 }
 
-
-/* ATIVIDADE  
-Envie o link do GitHub do projeto com o commit intitulada como "exclusão de item" que possua: 
-(1) a gestão de estado do widget; [OK]
-(2) lista de itens atualizando; [OK]
-e a exclusão de um item com a devida atualização da lista. [OK]
-
+/*
+ATIVIDADE
+Envie o link do GitHub do projeto com o commit intitulada como "finalizando CRUD"  que possua:
+(1) todos os formulários do projeto, com seus respectivos campos, rótulos, dicas orientavas e tipos de teclados específicos;
+(2) todas as entidades com as operações CRUD funcionando.
 */

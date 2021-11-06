@@ -18,13 +18,11 @@ class RemediosList extends StatelessWidget {
 final _back = RemedioListBack();
 
 CircleAvatar circleAvatar(String url){
-  try{
-    return CircleAvatar(backgroundImage: NetworkImage(url));
-  }catch(e){
-    return CircleAvatar(child: Icon(Icons.person));
+  return (Uri.tryParse(url).isAbsolute) ? 
+    CircleAvatar(backgroundImage: NetworkImage(url))
+    :CircleAvatar(child: Icon(Icons.person));
+  
   }
-
-}
 
 Widget iconEditButton(Function onPressed){
   return IconButton(icon: Icon(Icons.edit), color: Colors.orange, onPressed: onPressed);
@@ -67,7 +65,8 @@ Widget iconRemoveButton(BuildContext context, Function remove){
               IconButton(
                 icon: Icon(Icons.add),
                 onPressed: (){
-                  Navigator.of(context).pushNamed(MyApp.REMEDIOS_FORM);
+                  //Navigator.of(context).pushNamed(MyApp.REMEDIOS_FORM);
+                  _back.goToForm(context);
                 }
               )
             ],

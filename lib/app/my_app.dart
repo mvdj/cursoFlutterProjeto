@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
        HOME : (context) => RemediosList(),
-       REMEDIOS_FORM: (context) => RemediosForm()   
+       REMEDIOS_FORM: (context) => RemedioForm()   
       },
     );
   }

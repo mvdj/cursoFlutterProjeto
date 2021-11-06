@@ -12,6 +12,7 @@ class RemedioDAOImpl implements RemedioDAO{
   Future<List<Remedio>> find() async{
     _db = await Connection.get();
     List<Map<String, dynamic>> resultado = await _db.query('remedio');
+    
     List<Remedio> lista = List.generate(resultado.length, (i){
       var linha = resultado[i];
       return Remedio(
@@ -20,7 +21,8 @@ class RemedioDAOImpl implements RemedioDAO{
         apresentacao: linha['apresentacao'],
         imagem: linha['imagem'],
         data_lote: linha['data_lote'],
-        data_validade: linha['preco']
+        data_validade: linha['data_validade'],
+        preco: linha['preco']
       );
     }
     );

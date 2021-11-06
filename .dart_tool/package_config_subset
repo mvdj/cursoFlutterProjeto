@@ -162,6 +162,10 @@ logging
 2.12
 file:///home/mauriciojr/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/logging-1.0.2/
 file:///home/mauriciojr/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/logging-1.0.2/lib/
+mask_text_input_formatter
+2.6
+file:///home/mauriciojr/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/mask_text_input_formatter-1.2.1/
+file:///home/mauriciojr/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/mask_text_input_formatter-1.2.1/lib/
 matcher
 2.12
 file:///home/mauriciojr/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.11/
