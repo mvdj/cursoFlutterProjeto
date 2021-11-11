@@ -26,8 +26,6 @@ class RemedioService{
 
   }
 
-
-
 // Regra de negógio --> nome = seja obrigatório, tenha no mínimo 3 caracteres e no máximo 50 
   validateNome(String nome){
     var min = 3;

@@ -1,3 +1,5 @@
+//@dart=2.9
+import 'package:farmacia/app/view/remedio_details.dart';
 import 'package:farmacia/app/view/remedio_form.dart';
 import 'package:farmacia/app/view/remedio_list.dart';
 import 'package:flutter/material.dart';
@@ -5,8 +7,9 @@ import 'package:flutter/material.dart';
 class MyApp extends StatelessWidget {
   static const HOME = '/';
   static const REMEDIOS_FORM = 'remedios-form';
+  static const REMEDIOS_DETAILS = 'remedios-details';
 
-  const MyApp({Key? key}) : super(key: key);
+  //const MyApp({Key? key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
@@ -27,7 +30,9 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
        HOME : (context) => RemediosList(),
-       REMEDIOS_FORM: (context) => RemedioForm()   
+       REMEDIOS_FORM: (context) => RemedioForm(),
+       REMEDIOS_DETAILS: (context) => RemedioDetails()
+
       },
     );
   }

@@ -22,7 +22,9 @@ class RemedioDAOImpl implements RemedioDAO{
         imagem: linha['imagem'],
         data_lote: linha['data_lote'],
         data_validade: linha['data_validade'],
-        preco: linha['preco']
+        preco: linha['preco'],
+        telefone_fornecedor: linha['telefone_fornecedor'],
+        email_fornecedor: linha['email_fornecedor']
       );
     }
     );
@@ -43,11 +45,11 @@ class RemedioDAOImpl implements RemedioDAO{
     _db = await Connection.get();
     var sql;
     if (remedio.id==null){
-      sql = "INSERT INTO remedio (nome, apresentacao, imagem, data_lote, data_validade, preco) VALUES (?,?,?,?,?,?) ";
-      _db.rawInsert(sql,[remedio.nome,remedio.apresentacao,remedio.imagem,remedio.data_lote,remedio.data_validade,remedio.preco]);
+      sql = "INSERT INTO remedio (nome, apresentacao, imagem, data_lote, data_validade, preco,telefone_fornecedor,email_fornecedor) VALUES (?,?,?,?,?,?,?,?) ";
+      _db.rawInsert(sql,[remedio.nome,remedio.apresentacao,remedio.imagem,remedio.data_lote,remedio.data_validade,remedio.preco,remedio.telefone_fornecedor,remedio.email_fornecedor]);
     }else{
-      sql = "UPDATE remedio SET nome = ?, apresentacao=?, imagem=?, data_lote=?, data_validade=?, preco=? WHERE id = ?";
-      _db.rawUpdate(sql,[remedio.nome,remedio.apresentacao,remedio.imagem,remedio.data_lote,remedio.data_validade,remedio.preco,remedio.id]);
+      sql = "UPDATE remedio SET nome = ?, apresentacao=?, imagem=?, data_lote=?, data_validade=?, preco=?, telefone_fornecedor=?,email_fornecedor=? WHERE id = ?";
+      _db.rawUpdate(sql,[remedio.nome,remedio.apresentacao,remedio.imagem,remedio.data_lote,remedio.data_validade,remedio.preco,remedio.telefone_fornecedor,remedio.email_fornecedor,remedio.id]);
 
 
     }

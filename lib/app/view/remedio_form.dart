@@ -7,9 +7,6 @@ class RemedioForm extends StatelessWidget {
 //  const RemedioForm({ Key? key }) : super(key: key);
 final _form =  GlobalKey<FormState>();
 
-
-
-
 //field nome
 Widget fieldNome(RemedioFormBack back){
   return TextFormField(
@@ -90,6 +87,29 @@ Widget fieldPreco(RemedioFormBack back){
   );
 }
 
+//field Telefone Fornecedor
+Widget fieldTelefoneFornecedor(RemedioFormBack back){
+  return TextFormField(    
+    onSaved: (newValue) => back.remedio.telefone_fornecedor= newValue,
+    initialValue: (back.remedio.telefone_fornecedor).toString(),    
+    keyboardType: TextInputType.number,
+    decoration: InputDecoration(      
+      labelText: 'Telefone Fornecedor:'
+    )
+  );
+}
+
+//field preço
+Widget fieldEmailFornecedor(RemedioFormBack back){
+  return TextFormField(    
+    onSaved: (newValue) => back.remedio.email_fornecedor = newValue,
+    initialValue: (back.remedio.email_fornecedor).toString(),        
+    decoration: InputDecoration(      
+      labelText: 'Email Fornecedor:',
+      hintText: 'email@email.com.br'
+    )
+  );
+}
 
     @override
   Widget build(BuildContext context) {
@@ -121,7 +141,9 @@ Widget fieldPreco(RemedioFormBack back){
               fieldImagem(_back),
               fieldDataLote(_back),
               fieldDataValidade(_back),
-              fieldPreco(_back)
+              fieldPreco(_back),
+              fieldTelefoneFornecedor(_back),
+              fieldEmailFornecedor(_back)
             ]
           )
         )

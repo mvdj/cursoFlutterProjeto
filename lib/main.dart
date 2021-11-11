@@ -5,12 +5,12 @@ import 'package:flutter/material.dart';
   
 void main() {
   setupinjection();
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 /*
 ATIVIDADE
-Envie o link do GitHub do projeto com o commit intitulada como "finalizando CRUD"  que possua:
-(1) todos os formulários do projeto, com seus respectivos campos, rótulos, dicas orientavas e tipos de teclados específicos;
-(2) todas as entidades com as operações CRUD funcionando.
+Envie o link do GitHub do projeto com o commit intitulada como "detalhes de um item" que possua 
+(1) um widget que apresente os detalhes de um item;e (OK)
+(2) que possua a chama e o uso de APPs externas. (OK)
 */

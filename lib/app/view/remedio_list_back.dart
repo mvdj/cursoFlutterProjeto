@@ -33,6 +33,9 @@ goToForm(BuildContext context, [Remedio remedio]){
   Navigator.of(context).pushNamed(MyApp.REMEDIOS_FORM, arguments: remedio).then(refreshList());
 }
 
+goToDetails(BuildContext context, Remedio remedio){
+  Navigator.of(context).pushNamed(MyApp.REMEDIOS_DETAILS, arguments: remedio);
+  }
 
 //excluir
 

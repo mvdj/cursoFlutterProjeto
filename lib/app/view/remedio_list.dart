@@ -80,12 +80,15 @@ Widget iconRemoveButton(BuildContext context, Function remove){
         }else{
           List<Remedio> lista = futuro.data;          
           return ListView.builder(
-            itemCount: lista.length,
+            itemCount: lista.length,  
             itemBuilder: (context, i){
               var remedio = lista[i];              
               return ListTile(
                 leading: circleAvatar(remedio.imagem),
                 title: Text(remedio.nome),
+                onTap: (){
+                  _back.goToDetails(context, remedio);
+                },
                 subtitle: Text(remedio.apresentacao),            
                 trailing: Container(
                   width: 100,

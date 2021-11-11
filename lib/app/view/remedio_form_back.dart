@@ -3,13 +3,8 @@ import 'package:farmacia/app/domain/entities/remedio.dart';
 import 'package:farmacia/app/domain/services/remedio_service.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get_it/get_it.dart';
-import 'package:mobx/mobx.dart';
 
-part 'remedio_form_back.g.dart';
-
-class RemedioFormBack = _RemedioFormBack with _$RemedioFormBack;
-
-abstract class _RemedioFormBack with Store{
+class RemedioFormBack{
 
 Remedio remedio;
 var _service = GetIt.I.get<RemedioService>();
@@ -17,11 +12,11 @@ bool _nomeIsValid;
 bool _dataLoteIsValid;
 bool _dataValidadeIsValid;
 
-@action
+
 bool get isValid => _nomeIsValid && _dataLoteIsValid && _dataValidadeIsValid;
 
 // diferenciar novo com alteração 
-_RemedioFormBack(BuildContext context){
+RemedioFormBack(BuildContext context){
     var parameter = ModalRoute.of(context).settings.arguments;
     remedio = (parameter == null) ? Remedio() : parameter;
   }
