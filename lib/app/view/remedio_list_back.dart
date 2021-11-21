@@ -39,7 +39,7 @@ goToDetails(BuildContext context, Remedio remedio){
 
 //excluir
 
-remove(int id){
+remove(dynamic id){
   _service.remove(id);
   refreshList();
 }

@@ -32,7 +32,7 @@ class RemedioDAOImpl implements RemedioDAO{
   }
 
   @override
-  remove(int id) async {
+  remove(dynamic id) async {
     _db = await Connection.get();
     var sql = "DELETE FROM remedio WHERE id = ?";
     _db.rawDelete(sql,[id]);

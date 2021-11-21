@@ -1,7 +1,7 @@
 //@dart=2.9
 
 class Remedio{
-  int id;
+  dynamic id;
   String nome;
   String apresentacao;
   String imagem;

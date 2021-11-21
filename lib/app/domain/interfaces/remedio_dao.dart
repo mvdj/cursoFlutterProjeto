@@ -3,7 +3,7 @@ import 'package:farmacia/app/domain/entities/remedio.dart';
 
 abstract class RemedioDAO{
   save(Remedio remedio);
-  remove(int id);
+  remove(dynamic id);
   Future<List <Remedio>> find();
 
 }
